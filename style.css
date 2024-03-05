@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.8) 100%), url(images/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 96vh;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 12%;
+
+    align-items: center;
+}
+
+nav img{
+    height: 40px;
+}
+
+nav button{
+    margin-left: 20px;
+    border: 0;
+    outline: 0;
+    padding: 5px 17px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button1{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.button2{
+    background-color: red;
+    color: white;
+    padding: 6px 17px;
+}
+
+.hero{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+
+}
+
+.hero h1{
+    padding-bottom: 8px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.hero h3{
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.hero p{
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.form input, button{
+    border-radius: 5px;
+    border: 0;
+    margin: 0;
+}
+
+.form input{
+    border: 1px solid white;
+    padding: 17px 120px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.form button{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 40px;
+}
+
+input::placeholder{
+
+ font-size: 16px;
+ right: 67%;
+ position: absolute;
+}
+
+hr{
+    border: 4px solid hsl(15, 2%, 15%);
+}
+
+.container{
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.body, .body2, .body3, .body4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.textcol{
+    width: 50%;
+}
+.textcol h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.textcol p{
+    font-size: 20px;
+}
+
+.imagecol img, .imagecol3 img{
+    width: 550px;
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 10;
+}
+
+.imagecol3 img{
+    padding-bottom: 10px;
+    width: 600px;
+    
+}
+
+.imagecol video {
+    position: absolute;
+    right: 238px;
+    top: 855px;
+    width: 400px;
+    z-index: 9;
+}
+
+.imagecol2 img{
+    width: 520px;
+    padding-bottom: 45px;
+    margin-top: 120px;
+}
+
+.textcol2 {
+    width: 43%;
+}
+
+.textcol3{
+    width: 40%;
+}
+
+.textcol2 h1, .textcol3 h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.textcol2 p, .textcol3 p {
+    font-size: 20px;
+}
+
+.section1{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section1 h1{
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+.section1 button{
+    margin-bottom: 10px;
+    color: white;
+    background-color: hsl(0,0%,17.65%);
+    width: 78%;
+    padding: 25px 2%;
+    border-radius: 0;
+    font-size: 22px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.section1 button:hover{
+    color: white;
+    background-color: hsl(0, 0%, 28%);
+}
+
+.footer1 .hero{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.footermain{
+    width: 100%;
+    padding: 50px 12% 20px;
+}
+
+.footermain .row{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.col a{
+    color: white;
+}
+
+.footermain p{
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: rgb(170,170,170);
+}
+
+.row .col a{
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: rgb(170,170,170);
+}
+
+.buttonclass3{
+    margin-top: 15px;
+}
+
+.buttonclass3 button{
+    padding: 5px 17px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.buttonclass3 p{
+    color: rgb(170,170,170);
+    font-size: 15px;
+}
